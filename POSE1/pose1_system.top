@@ -1,0 +1,12 @@
+#include "/home/ubuntu/MMP1/POSE1/EN_MIN/pose1_final.itp"
+
+[ system ]
+; Name
+Pose1 in water
+
+[ molecules ]
+; Compound       #mols
+MMP1              1
+asyn              1
+SOL         146029
+NA               4
