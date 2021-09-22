@@ -6,3 +6,6 @@ POSE1, POSE2, POSE3, POSE3_MUTANT - Gromacs coordinate and topology parameter fi
 ATOMIC_CHARGES - atomic charges for each pose generated using Amber's MCPB.py. The charges eventually make their way into the Gromacs .itp file. 
 
 QM_CALCULATIONS - GAMESS-US log files of the QM calculations for each metal binding site. 
+
+
+![MMP1](https://user-images.githubusercontent.com/20614766/134327240-68e13139-79a5-4794-abdf-0fac041ceb5d.jpeg)
