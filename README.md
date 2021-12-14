@@ -7,5 +7,7 @@ ATOMIC_CHARGES - atomic charges for each pose generated using Amber's MCPB.py. T
 
 QM_CALCULATIONS - GAMESS-US log files of the QM calculations for each metal binding site. 
 
+RUN_PARAMETERS - .mdp files for energy minimisation, NVT and NPT equilibration, and NPT production runs. 
+
 
 ![MMP1](https://user-images.githubusercontent.com/20614766/134327240-68e13139-79a5-4794-abdf-0fac041ceb5d.jpeg)
