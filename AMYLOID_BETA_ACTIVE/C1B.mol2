@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+C1B
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CA         11.0780  104.9110   13.6740 M3        1 C1B      1.494474
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 C1B         1 TEMP              0 ****  ****    0 ROOT

@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+C4G
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CA         18.4260  109.6040   18.9980 M6        1 C4G      0.455473
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 C4G         1 TEMP              0 ****  ****    0 ROOT

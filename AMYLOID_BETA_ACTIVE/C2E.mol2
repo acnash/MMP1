@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+C2E
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 CA          0.6570  121.9950   51.8450 M4        1 C2E      1.377305
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 C2E         1 TEMP              0 ****  ****    0 ROOT

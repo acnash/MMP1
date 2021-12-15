@@ -1,0 +1,12 @@
+@<TRIPOS>MOLECULE
+Z2D
+    1     0     1     0     0
+SMALL
+RESP Charge
+ 
+ 
+@<TRIPOS>ATOM
+      1 ZN         17.5940  122.1940   21.8480 M2        1 Z2D      0.878756
+@<TRIPOS>BOND
+@<TRIPOS>SUBSTRUCTURE
+     1 Z2D         1 TEMP              0 ****  ****    0 ROOT

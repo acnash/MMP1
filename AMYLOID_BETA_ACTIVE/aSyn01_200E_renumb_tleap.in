@@ -1,0 +1,166 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+source leaprc.water.opc
+addAtomTypes {
+        { "M1"  "Zn" "sp3" }
+        { "Y1"  "N" "sp3" }
+        { "Y2"  "O" "sp3" }
+        { "Y3"  "N" "sp3" }
+        { "Y4"  "N" "sp3" }
+
+        { "M2"  "Zn" "sp3" }
+        { "Y5"  "N" "sp3" }
+        { "Y6"  "N" "sp3" }
+        { "Y7"  "N" "sp3" }
+        
+        { "M3"  "Ca" "sp3" }
+        { "Y8"  "O" "sp3" }
+        { "Y9"  "O" "sp3" }
+
+        { "M4"  "Ca" "sp3" }
+        { "YA"  "O" "sp3" }
+        { "YB"  "O" "sp3" }
+        { "YC"  "O" "sp3" }
+        { "YD"  "O" "sp3" }
+
+        { "M5"  "Ca" "sp3" }
+        { "YE"  "O" "sp3" }
+        { "YF"  "O" "sp3" }
+        { "YG"  "O" "sp3" }
+        { "YH"  "O" "sp3" }
+
+        { "M6"  "Ca" "sp3" }
+        { "YI"  "O" "sp3" }
+        { "YJ"  "O" "sp3" }
+        { "YK"  "O" "sp3" }
+        { "YL"  "O" "sp3" }
+        { "YM"  "O" "sp3" }
+        { "YN"  "O" "sp3" }
+
+}
+Z1A = loadmol2 Z1A.mol2
+Z1B = loadmol2 Z1B.mol2
+Z1C = loadmol2 Z1C.mol2
+Z1D = loadmol2 Z1D.mol2
+Z1E = loadmol2 Z1E.mol2
+
+Z2A = loadmol2 Z2A.mol2
+Z2B = loadmol2 Z2B.mol2
+Z2C = loadmol2 Z2C.mol2
+Z2D = loadmol2 Z2D.mol2
+
+C1A = loadmol2 C1A.mol2
+C1B = loadmol2 C1B.mol2
+
+C2A = loadmol2 C2A.mol2
+C2B = loadmol2 C2B.mol2
+C2C = loadmol2 C2C.mol2
+C2D = loadmol2 C2D.mol2
+C2E = loadmol2 C2E.mol2
+
+C3A = loadmol2 C3A.mol2
+C3B = loadmol2 C3B.mol2
+C3C = loadmol2 C3C.mol2
+C3D = loadmol2 C3D.mol2
+C3E = loadmol2 C3E.mol2
+
+C4A = loadmol2 C4A.mol2
+C4B = loadmol2 C4B.mol2
+C4C = loadmol2 C4C.mol2
+C4D = loadmol2 C4D.mol2
+C4E = loadmol2 C4E.mol2
+C4F = loadmol2 C4F.mol2
+C4G = loadmol2 C4G.mol2
+
+loadamberparams frcmod.ionslm_126_opc
+loadamberparams MMP1_zn_1201_mcpbpy.frcmod
+loadamberparams MMP1_zn_1202_mcpbpy.frcmod
+loadamberparams MMP1_ca_1101_mcpbpy.frcmod
+loadamberparams MMP1_ca_1102_mcpbpy.frcmod
+loadamberparams MMP1_ca_1103_mcpbpy.frcmod
+loadamberparams MMP1_ca_1104_mcpbpy.frcmod
+
+mol = loadpdb MMP1_AB_Pose3_Active_renum.pdb
+
+bond mol.221.SG mol.409.SG
+
+bond mol.111.NE2 mol.410.ZN
+bond mol.113.OD2 mol.410.ZN
+bond mol.126.NE2 mol.410.ZN
+bond mol.139.ND1 mol.410.ZN
+bond mol.110.C mol.111.N
+bond mol.111.C mol.112.N
+bond mol.112.C mol.113.N
+bond mol.113.C mol.114.N
+bond mol.125.C mol.126.N
+bond mol.126.C mol.127.N
+bond mol.138.C mol.139.N
+bond mol.139.C mol.140.N
+
+bond mol.161.NE2 mol.411.ZN
+bond mol.165.NE2 mol.411.ZN
+bond mol.171.NE2 mol.411.ZN
+bond mol.160.C mol.161.N
+bond mol.161.C mol.162.N
+bond mol.164.C mol.165.N
+bond mol.165.C mol.166.N
+bond mol.170.C mol.171.N
+bond mol.171.C mol.172.N
+
+bond mol.142.OE2 mol.412.CA
+bond mol.142.O mol.412.CA
+bond mol.141.C mol.142.N
+bond mol.142.C mol.143.N
+
+bond mol.228.O mol.413.CA
+bond mol.272.O mol.413.CA
+bond mol.321.O mol.413.CA
+bond mol.370.O mol.413.CA
+bond mol.227.C mol.228.N
+bond mol.228.C mol.229.N
+bond mol.271.C mol.272.N
+bond mol.272.C mol.273.N
+bond mol.320.C mol.321.N
+bond mol.321.C mol.322.N
+bond mol.369.C mol.370.N
+bond mol.370.C mol.371.N
+
+bond mol.101.O mol.414.CA
+bond mol.133.O mol.414.CA
+bond mol.135.O mol.414.CA
+bond mol.137.OD1 mol.414.CA
+bond mol.100.C mol.101.N
+bond mol.101.C mol.102.N
+bond mol.132.C mol.133.N
+bond mol.133.C mol.134.N
+bond mol.134.C mol.135.N
+bond mol.135.C mol.136.N
+bond mol.136.C mol.137.N
+bond mol.137.C mol.138.N
+
+bond mol.118.OD1 mol.415.CA
+bond mol.119.O mol.415.CA
+bond mol.121.O mol.415.CA
+bond mol.123.O mol.415.CA
+bond mol.141.OD2 mol.415.CA
+bond mol.144.OE2 mol.415.CA
+bond mol.117.C mol.118.N
+bond mol.118.C mol.119.N
+bond mol.119.C mol.120.N
+bond mol.120.C mol.121.N
+bond mol.121.C mol.122.N
+bond mol.122.C mol.123.N
+bond mol.123.C mol.124.N
+bond mol.140.C mol.141.N
+bond mol.143.C mol.144.N
+bond mol.144.C mol.145.N
+
+savepdb mol combined_dry.pdb
+saveamberparm mol combined.prmtop combined.inpcrd
+solvatebox mol OPCBOX 10.0
+addions mol Na+ 0
+addions mol Cl- 0
+savepdb mol combined_solv.pdb
+saveamberparm mol combined_solv.prmtop combined_solv.inpcrd
+quit
+ 
